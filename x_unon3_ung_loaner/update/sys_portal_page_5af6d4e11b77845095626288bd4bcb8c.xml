@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2020-04-01 16:24:21">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 14:25:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>5af6d4e11b77845095626288bd4bcb8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA UNG Loaner Dashboard - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="UNG Loaner" source="x_unon3_ung_loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+        <sys_update_name>sys_portal_page_5af6d4e11b77845095626288bd4bcb8c</sys_update_name>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 14:25:10</sys_updated_on>
+        <title>PA UNG Loaner Dashboard - New Tab</title>
+        <user/>
+        <view>pa_ung_loaner_dashboard_-_new_tab</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA UNG Loaner Dashboard - New Tab">5af6d4e11b77845095626288bd4bcb8c</page>
+                <summary>UNG Loaner - Available Devices</summary>
+                <sys_created_by>taalday</sys_created_by>
+                <sys_created_on>2020-03-26 16:55:08</sys_created_on>
+                <sys_id>0349346d1bf7845095626288bd4bcbe2</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>taalday</sys_updated_by>
+                <sys_updated_on>2020-03-26 16:55:08</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 03/26/2020 12:55:08:PM">0349346d1bf7845095626288bd4bcbe2</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 16:55:08</sys_created_on>
+                        <sys_id>0349b46d1bf7845095626288bd4bcbc8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 16:55:08</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 03/26/2020 12:55:08:PM">0349346d1bf7845095626288bd4bcbe2</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 16:55:08</sys_created_on>
+                        <sys_id>0749346d1bf7845095626288bd4bcbe2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 16:55:08</sys_updated_on>
+                        <value>5de8382d1bf7845095626288bd4bcb0d</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 03/26/2020 12:55:08:PM">0349346d1bf7845095626288bd4bcbe2</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 16:55:08</sys_created_on>
+                        <sys_id>0f49346d1bf7845095626288bd4bcbe2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 16:55:08</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 03/26/2020 12:55:08:PM">0349346d1bf7845095626288bd4bcbe2</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 16:55:08</sys_created_on>
+                        <sys_id>4b49346d1bf7845095626288bd4bcbe2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 16:55:08</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 03/26/2020 12:55:08:PM">0349346d1bf7845095626288bd4bcbe2</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 16:55:08</sys_created_on>
+                        <sys_id>4b49b46d1bf7845095626288bd4bcbc8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 16:55:08</sys_updated_on>
+                        <value>UNG Loaner - Available Devices</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 03/26/2020 12:55:08:PM">0349346d1bf7845095626288bd4bcbe2</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 16:55:08</sys_created_on>
+                        <sys_id>8749b46d1bf7845095626288bd4bcbc8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 16:55:08</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 03/26/2020 12:55:08:PM">0349346d1bf7845095626288bd4bcbe2</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 16:55:08</sys_created_on>
+                        <sys_id>c349b46d1bf7845095626288bd4bcbc8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 16:55:08</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 03/26/2020 12:55:08:PM">0349346d1bf7845095626288bd4bcbe2</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 16:55:08</sys_created_on>
+                        <sys_id>cf49b46d1bf7845095626288bd4bcbc8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 16:55:08</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA UNG Loaner Dashboard - New Tab">5af6d4e11b77845095626288bd4bcb8c</page>
+                <summary>UNG Loaner - Overdue</summary>
+                <sys_created_by>taalday</sys_created_by>
+                <sys_created_on>2020-03-26 14:28:30</sys_created_on>
+                <sys_id>0fb714251b77845095626288bd4bcb53</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>taalday</sys_updated_by>
+                <sys_updated_on>2020-03-26 14:28:30</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 03/26/2020 10:28:30:AM">0fb714251b77845095626288bd4bcb53</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 14:28:30</sys_created_on>
+                        <sys_id>03b714251b77845095626288bd4bcb54</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 14:28:30</sys_updated_on>
+                        <value>705154e51b37845095626288bd4bcbd7</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 03/26/2020 10:28:30:AM">0fb714251b77845095626288bd4bcb53</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 14:28:30</sys_created_on>
+                        <sys_id>07b714251b77845095626288bd4bcb55</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 14:28:30</sys_updated_on>
+                        <value>UNG Loaner - Overdue</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 03/26/2020 10:28:30:AM">0fb714251b77845095626288bd4bcb53</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 14:28:30</sys_created_on>
+                        <sys_id>0bb714251b77845095626288bd4bcb54</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 14:28:30</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 03/26/2020 10:28:30:AM">0fb714251b77845095626288bd4bcb53</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 14:28:30</sys_created_on>
+                        <sys_id>43b714251b77845095626288bd4bcb55</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 14:28:30</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 03/26/2020 10:28:30:AM">0fb714251b77845095626288bd4bcb53</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 14:28:30</sys_created_on>
+                        <sys_id>47b714251b77845095626288bd4bcb54</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 14:28:30</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 03/26/2020 10:28:30:AM">0fb714251b77845095626288bd4bcb53</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 14:28:30</sys_created_on>
+                        <sys_id>8bb714251b77845095626288bd4bcb55</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 14:28:30</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 03/26/2020 10:28:30:AM">0fb714251b77845095626288bd4bcb53</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 14:28:30</sys_created_on>
+                        <sys_id>8fb714251b77845095626288bd4bcb54</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 14:28:30</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 03/26/2020 10:28:30:AM">0fb714251b77845095626288bd4bcb53</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 14:28:30</sys_created_on>
+                        <sys_id>cbb714251b77845095626288bd4bcb54</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 14:28:30</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA UNG Loaner Dashboard - New Tab">5af6d4e11b77845095626288bd4bcb8c</page>
+                <summary>UNG Loaner - Unassigned</summary>
+                <sys_created_by>taalday</sys_created_by>
+                <sys_created_on>2020-03-26 14:28:02</sys_created_on>
+                <sys_id>14a7d0251b77845095626288bd4bcba5</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>taalday</sys_updated_by>
+                <sys_updated_on>2020-03-26 14:28:02</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 03/26/2020 10:28:02:AM">14a7d0251b77845095626288bd4bcba5</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 14:28:02</sys_created_on>
+                        <sys_id>14a7d0251b77845095626288bd4bcba7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 14:28:02</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 03/26/2020 10:28:02:AM">14a7d0251b77845095626288bd4bcba5</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 14:28:02</sys_created_on>
+                        <sys_id>50a7d0251b77845095626288bd4bcba7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 14:28:02</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 03/26/2020 10:28:02:AM">14a7d0251b77845095626288bd4bcba5</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 14:28:02</sys_created_on>
+                        <sys_id>98a7d0251b77845095626288bd4bcba7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 14:28:02</sys_updated_on>
+                        <value>UNG Loaner - Unassigned</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 03/26/2020 10:28:02:AM">14a7d0251b77845095626288bd4bcba5</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 14:28:02</sys_created_on>
+                        <sys_id>9ca7d0251b77845095626288bd4bcba6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 14:28:02</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 03/26/2020 10:28:02:AM">14a7d0251b77845095626288bd4bcba5</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 14:28:02</sys_created_on>
+                        <sys_id>d4a7d0251b77845095626288bd4bcba7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 14:28:02</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 03/26/2020 10:28:02:AM">14a7d0251b77845095626288bd4bcba5</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 14:28:02</sys_created_on>
+                        <sys_id>d4a7d0251b77845095626288bd4bcba8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 14:28:02</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 03/26/2020 10:28:02:AM">14a7d0251b77845095626288bd4bcba5</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 14:28:02</sys_created_on>
+                        <sys_id>d8a7d0251b77845095626288bd4bcba6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 14:28:02</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 03/26/2020 10:28:02:AM">14a7d0251b77845095626288bd4bcba5</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 14:28:02</sys_created_on>
+                        <sys_id>dca7d0251b77845095626288bd4bcba5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 14:28:02</sys_updated_on>
+                        <value>3981186d1b37845095626288bd4bcb90</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA UNG Loaner Dashboard - New Tab">5af6d4e11b77845095626288bd4bcb8c</page>
+                <summary>UNG Loaner - Due this Week</summary>
+                <sys_created_by>taalday</sys_created_by>
+                <sys_created_on>2020-03-26 14:29:11</sys_created_on>
+                <sys_id>15e7d4251b77845095626288bd4bcb42</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>taalday</sys_updated_by>
+                <sys_updated_on>2020-03-26 14:29:11</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 03/26/2020 10:29:11:AM">15e7d4251b77845095626288bd4bcb42</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 14:29:11</sys_created_on>
+                        <sys_id>11e7d4251b77845095626288bd4bcb43</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 14:29:11</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 03/26/2020 10:29:11:AM">15e7d4251b77845095626288bd4bcb42</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 14:29:11</sys_created_on>
+                        <sys_id>19e7d4251b77845095626288bd4bcb42</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 14:29:11</sys_updated_on>
+                        <value>f3d15ce91b37845095626288bd4bcba4</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 03/26/2020 10:29:11:AM">15e7d4251b77845095626288bd4bcb42</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 14:29:11</sys_created_on>
+                        <sys_id>59e7d4251b77845095626288bd4bcb43</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 14:29:11</sys_updated_on>
+                        <value>UNG Loaner - Due this Week</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 03/26/2020 10:29:11:AM">15e7d4251b77845095626288bd4bcb42</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 14:29:11</sys_created_on>
+                        <sys_id>5de7d4251b77845095626288bd4bcb42</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 14:29:11</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 03/26/2020 10:29:11:AM">15e7d4251b77845095626288bd4bcb42</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 14:29:11</sys_created_on>
+                        <sys_id>95e7d4251b77845095626288bd4bcb43</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 14:29:11</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 03/26/2020 10:29:11:AM">15e7d4251b77845095626288bd4bcb42</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 14:29:11</sys_created_on>
+                        <sys_id>d1e7d4251b77845095626288bd4bcb43</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 14:29:11</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA UNG Loaner Dashboard - New Tab">5af6d4e11b77845095626288bd4bcb8c</page>
+                <summary>UNG Loaner - Available Peripherals</summary>
+                <sys_created_by>taalday</sys_created_by>
+                <sys_created_on>2020-03-26 16:55:26</sys_created_on>
+                <sys_id>5b59fc2d1bf7845095626288bd4bcbd4</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>taalday</sys_updated_by>
+                <sys_updated_on>2020-03-26 16:55:26</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 03/26/2020 12:55:26:PM">5b59fc2d1bf7845095626288bd4bcbd4</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 16:55:26</sys_created_on>
+                        <sys_id>1759f46d1bf7845095626288bd4bcbda</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 16:55:26</sys_updated_on>
+                        <value>UNG Loaner - Available Peripherals</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 03/26/2020 12:55:26:PM">5b59fc2d1bf7845095626288bd4bcbd4</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 16:55:26</sys_created_on>
+                        <sys_id>5359f46d1bf7845095626288bd4bcbda</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 16:55:26</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 03/26/2020 12:55:26:PM">5b59fc2d1bf7845095626288bd4bcbd4</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 16:55:26</sys_created_on>
+                        <sys_id>5759fc2d1bf7845095626288bd4bcbd5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 16:55:26</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 03/26/2020 12:55:26:PM">5b59fc2d1bf7845095626288bd4bcbd4</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 16:55:26</sys_created_on>
+                        <sys_id>5f59fc2d1bf7845095626288bd4bcbd4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 16:55:26</sys_updated_on>
+                        <value>3719bce91bf7845095626288bd4bcbd3</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 03/26/2020 12:55:26:PM">5b59fc2d1bf7845095626288bd4bcbd4</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 16:55:26</sys_created_on>
+                        <sys_id>9359fc2d1bf7845095626288bd4bcbd5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 16:55:26</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 03/26/2020 12:55:26:PM">5b59fc2d1bf7845095626288bd4bcbd4</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 16:55:26</sys_created_on>
+                        <sys_id>9b59f46d1bf7845095626288bd4bcbda</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 16:55:26</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 03/26/2020 12:55:26:PM">5b59fc2d1bf7845095626288bd4bcbd4</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 16:55:26</sys_created_on>
+                        <sys_id>9f59f46d1bf7845095626288bd4bcbd9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 16:55:26</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 03/26/2020 12:55:26:PM">5b59fc2d1bf7845095626288bd4bcbd4</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 16:55:26</sys_created_on>
+                        <sys_id>db59f46d1bf7845095626288bd4bcbd9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 16:55:26</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA UNG Loaner Dashboard - New Tab">5af6d4e11b77845095626288bd4bcb8c</page>
+                <summary>UNG Loaner - Available Accessories</summary>
+                <sys_created_by>taalday</sys_created_by>
+                <sys_created_on>2020-03-30 19:19:23</sys_created_on>
+                <sys_id>9fa04ab21b370c5095626288bd4bcb97</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>taalday</sys_updated_by>
+                <sys_updated_on>2020-03-30 19:19:23</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 03/30/2020 03:19:23:PM">9fa04ab21b370c5095626288bd4bcb97</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-30 19:19:23</sys_created_on>
+                        <sys_id>17a04ab21b370c5095626288bd4bcb99</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-30 19:19:23</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 03/30/2020 03:19:23:PM">9fa04ab21b370c5095626288bd4bcb97</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-30 19:19:23</sys_created_on>
+                        <sys_id>1ba04ab21b370c5095626288bd4bcb98</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-30 19:19:23</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 03/30/2020 03:19:23:PM">9fa04ab21b370c5095626288bd4bcb97</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-30 19:19:23</sys_created_on>
+                        <sys_id>53a04ab21b370c5095626288bd4bcb99</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-30 19:19:23</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 03/30/2020 03:19:23:PM">9fa04ab21b370c5095626288bd4bcb97</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-30 19:19:23</sys_created_on>
+                        <sys_id>5fa04ab21b370c5095626288bd4bcb99</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-30 19:19:23</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 03/30/2020 03:19:23:PM">9fa04ab21b370c5095626288bd4bcb97</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-30 19:19:23</sys_created_on>
+                        <sys_id>9fa04ab21b370c5095626288bd4bcb98</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-30 19:19:23</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 03/30/2020 03:19:23:PM">9fa04ab21b370c5095626288bd4bcb97</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-30 19:19:23</sys_created_on>
+                        <sys_id>d3a04ab21b370c5095626288bd4bcb98</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-30 19:19:23</sys_updated_on>
+                        <value>c4a046b21b370c5095626288bd4bcbfb</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 03/30/2020 03:19:23:PM">9fa04ab21b370c5095626288bd4bcb97</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-30 19:19:23</sys_created_on>
+                        <sys_id>d7a04ab21b370c5095626288bd4bcb99</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-30 19:19:23</sys_updated_on>
+                        <value>UNG Loaner - Available Accessories</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 03/30/2020 03:19:23:PM">9fa04ab21b370c5095626288bd4bcb97</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-30 19:19:23</sys_created_on>
+                        <sys_id>dba04ab21b370c5095626288bd4bcb98</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-30 19:19:23</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA UNG Loaner Dashboard - New Tab">5af6d4e11b77845095626288bd4bcb8c</page>
+                <summary>UNG Loaner - Active Loans</summary>
+                <sys_created_by>taalday</sys_created_by>
+                <sys_created_on>2020-03-26 14:28:17</sys_created_on>
+                <sys_id>bba75ce11b77845095626288bd4bcbd2</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>taalday</sys_updated_by>
+                <sys_updated_on>2020-03-26 14:28:17</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 03/26/2020 10:28:17:AM">bba75ce11b77845095626288bd4bcbd2</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 14:28:17</sys_created_on>
+                        <sys_id>3ba75ce11b77845095626288bd4bcbd4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 14:28:17</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 03/26/2020 10:28:17:AM">bba75ce11b77845095626288bd4bcbd2</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 14:28:17</sys_created_on>
+                        <sys_id>3fa75ce11b77845095626288bd4bcbd3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 14:28:17</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 03/26/2020 10:28:17:AM">bba75ce11b77845095626288bd4bcbd2</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 14:28:17</sys_created_on>
+                        <sys_id>7ba75ce11b77845095626288bd4bcbd3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 14:28:17</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 03/26/2020 10:28:17:AM">bba75ce11b77845095626288bd4bcbd2</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 14:28:17</sys_created_on>
+                        <sys_id>b3a75ce11b77845095626288bd4bcbd4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 14:28:17</sys_updated_on>
+                        <value>UNG Loaner - Active Loans</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 03/26/2020 10:28:17:AM">bba75ce11b77845095626288bd4bcbd2</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 14:28:17</sys_created_on>
+                        <sys_id>b7a75ce11b77845095626288bd4bcbd3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 14:28:17</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 03/26/2020 10:28:17:AM">bba75ce11b77845095626288bd4bcbd2</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 14:28:17</sys_created_on>
+                        <sys_id>bfa75ce11b77845095626288bd4bcbd2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 14:28:17</sys_updated_on>
+                        <value>9ac050291b37845095626288bd4bcbac</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 03/26/2020 10:28:17:AM">bba75ce11b77845095626288bd4bcbd2</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 14:28:17</sys_created_on>
+                        <sys_id>f3a75ce11b77845095626288bd4bcbd3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 14:28:17</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 03/26/2020 10:28:17:AM">bba75ce11b77845095626288bd4bcbd2</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-26 14:28:17</sys_created_on>
+                        <sys_id>ffa75ce11b77845095626288bd4bcbd3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-26 14:28:17</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA UNG Loaner Dashboard - New Tab">5af6d4e11b77845095626288bd4bcb8c</page>
+                <summary>UNG Loaner - Due Next Week</summary>
+                <sys_created_by>taalday</sys_created_by>
+                <sys_created_on>2020-03-30 19:26:54</sys_created_on>
+                <sys_id>d1620e761b370c5095626288bd4bcb8d</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>taalday</sys_updated_by>
+                <sys_updated_on>2020-03-30 19:26:54</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 03/30/2020 03:26:54:PM">d1620e761b370c5095626288bd4bcb8d</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-30 19:26:54</sys_created_on>
+                        <sys_id>11620e761b370c5095626288bd4bcb8e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-30 19:26:54</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 03/30/2020 03:26:54:PM">d1620e761b370c5095626288bd4bcb8d</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-30 19:26:54</sys_created_on>
+                        <sys_id>19620e761b370c5095626288bd4bcb8d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-30 19:26:54</sys_updated_on>
+                        <value>293286761b370c5095626288bd4bcbda</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 03/30/2020 03:26:54:PM">d1620e761b370c5095626288bd4bcb8d</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-30 19:26:54</sys_created_on>
+                        <sys_id>59620e761b370c5095626288bd4bcb8e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-30 19:26:54</sys_updated_on>
+                        <value>UNG Loaner - Due Next Week</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 03/30/2020 03:26:54:PM">d1620e761b370c5095626288bd4bcb8d</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-30 19:26:54</sys_created_on>
+                        <sys_id>5d620e761b370c5095626288bd4bcb8d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-30 19:26:54</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 03/30/2020 03:26:54:PM">d1620e761b370c5095626288bd4bcb8d</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-30 19:26:54</sys_created_on>
+                        <sys_id>95620e761b370c5095626288bd4bcb8e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-30 19:26:54</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 03/30/2020 03:26:54:PM">d1620e761b370c5095626288bd4bcb8d</portal_section>
+                        <sys_created_by>taalday</sys_created_by>
+                        <sys_created_on>2020-03-30 19:26:54</sys_created_on>
+                        <sys_id>d1620e761b370c5095626288bd4bcb8e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>taalday</sys_updated_by>
+                        <sys_updated_on>2020-03-30 19:26:54</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

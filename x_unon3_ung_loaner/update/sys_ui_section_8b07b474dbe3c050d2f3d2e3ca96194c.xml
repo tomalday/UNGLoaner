@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Return Info" section_id="8b07b474dbe3c050d2f3d2e3ca96194c" sys_domain="global" table="x_unon3_ung_loaner_program" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-26 17:53:30</sys_created_on>
+            <sys_id>06a60dad1b3b845095626288bd4bcb31</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-26 17:53:30</sys_updated_on>
+            <text>Checking action boxes and saving the form will auto populate the current time in the appropriate field</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>06a60dad1b3b845095626288bd4bcb31</element>
+            <position>0</position>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-26 17:53:31</sys_created_on>
+            <sys_id>1aa60dad1b3b845095626288bd4bcb39</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Return Info" display_value="Return Info" name="x_unon3_ung_loaner_program" sys_domain="global" view="Default view">8b07b474dbe3c050d2f3d2e3ca96194c</sys_ui_section>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-26 17:53:31</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-26 17:53:31</sys_created_on>
+            <sys_id>9aa60dad1b3b845095626288bd4bcb39</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Return Info" display_value="Return Info" name="x_unon3_ung_loaner_program" sys_domain="global" view="Default view">8b07b474dbe3c050d2f3d2e3ca96194c</sys_ui_section>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-26 17:53:31</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ci_checked_in</element>
+            <position>2</position>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-26 17:53:31</sys_created_on>
+            <sys_id>1ea60dad1b3b845095626288bd4bcb39</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Return Info" display_value="Return Info" name="x_unon3_ung_loaner_program" sys_domain="global" view="Default view">8b07b474dbe3c050d2f3d2e3ca96194c</sys_ui_section>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-26 17:53:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>monitor_returned</element>
+            <position>3</position>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-26 17:53:31</sys_created_on>
+            <sys_id>9ea60dad1b3b845095626288bd4bcb39</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Return Info" display_value="Return Info" name="x_unon3_ung_loaner_program" sys_domain="global" view="Default view">8b07b474dbe3c050d2f3d2e3ca96194c</sys_ui_section>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-26 17:53:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>power_adapter_returned</element>
+            <position>4</position>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-26 17:53:31</sys_created_on>
+            <sys_id>12a60dad1b3b845095626288bd4bcb3a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Return Info" display_value="Return Info" name="x_unon3_ung_loaner_program" sys_domain="global" view="Default view">8b07b474dbe3c050d2f3d2e3ca96194c</sys_ui_section>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-26 17:53:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>webcam_mic_returned</element>
+            <position>5</position>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-26 17:53:31</sys_created_on>
+            <sys_id>92a60dad1b3b845095626288bd4bcb3a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Return Info" display_value="Return Info" name="x_unon3_ung_loaner_program" sys_domain="global" view="Default view">8b07b474dbe3c050d2f3d2e3ca96194c</sys_ui_section>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-26 17:53:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_peripheral1_returned</element>
+            <position>6</position>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-26 17:53:31</sys_created_on>
+            <sys_id>16a60dad1b3b845095626288bd4bcb3a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Return Info" display_value="Return Info" name="x_unon3_ung_loaner_program" sys_domain="global" view="Default view">8b07b474dbe3c050d2f3d2e3ca96194c</sys_ui_section>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-26 17:53:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_peripheral2_returned</element>
+            <position>7</position>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-26 17:53:31</sys_created_on>
+            <sys_id>96a60dad1b3b845095626288bd4bcb3a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Return Info" display_value="Return Info" name="x_unon3_ung_loaner_program" sys_domain="global" view="Default view">8b07b474dbe3c050d2f3d2e3ca96194c</sys_ui_section>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-26 17:53:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-26 17:53:31</sys_created_on>
+            <sys_id>1aa60dad1b3b845095626288bd4bcb3a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Return Info" display_value="Return Info" name="x_unon3_ung_loaner_program" sys_domain="global" view="Default view">8b07b474dbe3c050d2f3d2e3ca96194c</sys_ui_section>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-26 17:53:31</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ci_returned</element>
+            <position>9</position>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-26 17:53:31</sys_created_on>
+            <sys_id>9aa60dad1b3b845095626288bd4bcb3a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Return Info" display_value="Return Info" name="x_unon3_ung_loaner_program" sys_domain="global" view="Default view">8b07b474dbe3c050d2f3d2e3ca96194c</sys_ui_section>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-26 17:53:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>monitor_return_date</element>
+            <position>10</position>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-26 17:53:31</sys_created_on>
+            <sys_id>1ea60dad1b3b845095626288bd4bcb3a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Return Info" display_value="Return Info" name="x_unon3_ung_loaner_program" sys_domain="global" view="Default view">8b07b474dbe3c050d2f3d2e3ca96194c</sys_ui_section>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-26 17:53:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>power_adapter_return_date</element>
+            <position>11</position>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-26 17:53:31</sys_created_on>
+            <sys_id>9ea60dad1b3b845095626288bd4bcb3a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Return Info" display_value="Return Info" name="x_unon3_ung_loaner_program" sys_domain="global" view="Default view">8b07b474dbe3c050d2f3d2e3ca96194c</sys_ui_section>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-26 17:53:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>webcam_mic_return_date</element>
+            <position>12</position>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-26 17:53:31</sys_created_on>
+            <sys_id>12a60dad1b3b845095626288bd4bcb3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Return Info" display_value="Return Info" name="x_unon3_ung_loaner_program" sys_domain="global" view="Default view">8b07b474dbe3c050d2f3d2e3ca96194c</sys_ui_section>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-26 17:53:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_peripheral1_return_date</element>
+            <position>13</position>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-26 17:53:31</sys_created_on>
+            <sys_id>92a60dad1b3b845095626288bd4bcb3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Return Info" display_value="Return Info" name="x_unon3_ung_loaner_program" sys_domain="global" view="Default view">8b07b474dbe3c050d2f3d2e3ca96194c</sys_ui_section>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-26 17:53:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_peripheral2_return_date</element>
+            <position>14</position>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-26 17:53:31</sys_created_on>
+            <sys_id>16a60dad1b3b845095626288bd4bcb3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Return Info" display_value="Return Info" name="x_unon3_ung_loaner_program" sys_domain="global" view="Default view">8b07b474dbe3c050d2f3d2e3ca96194c</sys_ui_section>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-26 17:53:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>due_date_reminder_sent</element>
+            <position>15</position>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-26 17:53:31</sys_created_on>
+            <sys_id>96a60dad1b3b845095626288bd4bcb3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Return Info" display_value="Return Info" name="x_unon3_ung_loaner_program" sys_domain="global" view="Default view">8b07b474dbe3c050d2f3d2e3ca96194c</sys_ui_section>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-26 17:53:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Return Info</caption>
+            <header>false</header>
+            <name>x_unon3_ung_loaner_program</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-11 22:34:10</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>8b07b474dbe3c050d2f3d2e3ca96194c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Return Info</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="UNG Loaner" source="x_unon3_ung_loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+            <sys_update_name>sys_ui_section_8b07b474dbe3c050d2f3d2e3ca96194c</sys_update_name>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-11 22:34:10</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

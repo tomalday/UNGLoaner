@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="81650e55db2b4450d2f3d2e3ca9619cb" sys_domain="global" table="sys_flow_trigger_auto_script" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-13 17:33:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d9658295db2b4450d2f3d2e3ca9619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_flow_trigger_auto_script" name="sys_flow_trigger_auto_script" sys_domain="global" view="Default view">81650e55db2b4450d2f3d2e3ca9619cb</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="sys_flow_trigger_auto_script" sys_domain="global" view="Default view">d1658295db2b4450d2f3d2e3ca9619d5</sys_ui_section>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-13 17:33:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-13 17:33:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>61658295db2b4450d2f3d2e3ca9619f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_flow_trigger_auto_script" name="sys_flow_trigger_auto_script" sys_domain="global" view="Default view">81650e55db2b4450d2f3d2e3ca9619cb</sys_ui_form>
+            <sys_ui_section caption="When to run" display_value="When to run" name="sys_flow_trigger_auto_script" sys_domain="global" view="Default view">5d658295db2b4450d2f3d2e3ca9619e7</sys_ui_section>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-13 17:33:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-13 17:33:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>55658295db2b4450d2f3d2e3ca9619e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_flow_trigger_auto_script" name="sys_flow_trigger_auto_script" sys_domain="global" view="Default view">81650e55db2b4450d2f3d2e3ca9619cb</sys_ui_form>
+            <sys_ui_section caption="Actions" display_value="Actions" name="sys_flow_trigger_auto_script" sys_domain="global" view="Default view">19658295db2b4450d2f3d2e3ca9619de</sys_ui_section>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-13 17:33:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-13 17:33:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e5658295db2b4450d2f3d2e3ca9619f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_flow_trigger_auto_script" name="sys_flow_trigger_auto_script" sys_domain="global" view="Default view">81650e55db2b4450d2f3d2e3ca9619cb</sys_ui_form>
+            <sys_ui_section caption="Advanced" display_value="Advanced" name="sys_flow_trigger_auto_script" sys_domain="global" view="Default view">69658295db2b4450d2f3d2e3ca9619f1</sys_ui_section>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-13 17:33:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>sys_flow_trigger_auto_script</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-13 17:33:25</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>81650e55db2b4450d2f3d2e3ca9619cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_flow_trigger_auto_script</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="UNG Loaner" source="x_unon3_ung_loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+            <sys_update_name>sys_ui_form_sections_81650e55db2b4450d2f3d2e3ca9619cb</sys_update_name>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-13 17:33:25</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

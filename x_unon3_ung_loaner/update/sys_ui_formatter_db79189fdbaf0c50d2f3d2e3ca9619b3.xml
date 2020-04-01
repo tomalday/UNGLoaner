@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_formatter">
+    <sys_ui_formatter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <angular_module/>
+        <formatter>process_flow.xml</formatter>
+        <name>Process Flow</name>
+        <sys_class_name>sys_ui_formatter</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-19 14:49:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>db79189fdbaf0c50d2f3d2e3ca9619b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Process Flow</sys_name>
+        <sys_package display_value="UNG Loaner" source="x_unon3_ung_loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+        <sys_update_name>sys_ui_formatter_db79189fdbaf0c50d2f3d2e3ca9619b3</sys_update_name>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-19 14:49:50</sys_updated_on>
+        <table>x_unon3_ung_loaner_program</table>
+        <type>formatter</type>
+    </sys_ui_formatter>
+</record_update>

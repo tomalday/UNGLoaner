@@ -1,0 +1,1584 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-orlando-12-11-2019__patch0-hotfix1-01-08-2020</compiler_build>
+        <copied_from>3ea5dd45db670450d2f3d2e3ca961975</copied_from>
+        <copied_from_name>UNG Loaner - Monitor Returned</copied_from_name>
+        <description/>
+        <internal_name>ung_loaner__webcam_returned</internal_name>
+        <label_cache>[{"name":"Updated_1.current.webcam_mic","label":"Trigger➛UNG Loaner Record➛Webcam/Mic","reference":"cmdb_ci_peripheral","reference_display":"Computer Peripheral","type":"reference","base_type":"reference","parent_table_name":"x_unon3_ung_loaner_program","column_name":"webcam_mic"},{"name":"6fc4ade9-5c6b-429c-8598-ed26cf30d85c.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6fc4ade9-5c6b-429c-8598-ed26cf30d85c.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.loaned_ci","label":"Trigger➛UNG Loaner Record➛Loaned CI","reference":"cmdb_ci_computer","reference_display":"Computer","type":"reference","base_type":"reference","parent_table_name":"x_unon3_ung_loaner_program","column_name":"loaned_ci"},{"name":"9fb5f4f1-5f16-4d47-a3fd-38a476b45ad8.Table","label":"1➛Accessory Table","reference":"cmdb_ci_acc","reference_display":"Accessory","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9fb5f4f1-5f16-4d47-a3fd-38a476b45ad8.Record","label":"1➛Accessory Record","reference":"cmdb_ci_acc","reference_display":"Accessory","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.peripheral","label":"Trigger➛UNG Loaner Record➛Loaned Peripheral","reference":"cmdb_ci_peripheral","reference_display":"Computer Peripheral","type":"reference","base_type":"reference","parent_table_name":"x_unon3_ung_loaner_program","column_name":"peripheral"},{"name":"Updated_1.current.monitor","label":"Trigger➛UNG Loaner Record➛Monitor","reference":"cmdb_ci_peripheral","reference_display":"Computer Peripheral","type":"reference","base_type":"reference","parent_table_name":"x_unon3_ung_loaner_program","column_name":"monitor"}]</label_cache>
+        <latest_snapshot>8eb229ed1bbb845095626288bd4bcbd6</latest_snapshot>
+        <master_snapshot>8eb229ed1bbb845095626288bd4bcbd6</master_snapshot>
+        <name>UNG Loaner - Webcam Returned</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>52b269ed1bbb845095626288bd4bcb30</remote_trigger_id>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:55:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>948225ed1bbb845095626288bd4bcb96</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>UNG Loaner - Webcam Returned</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="UNG Loaner" source="x_unon3_ung_loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+        <sys_update_name>sys_hub_flow_948225ed1bbb845095626288bd4bcb96</sys_update_name>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-30 18:43:53</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="delete_multiple" query="document_key=948225ed1bbb845095626288bd4bcb96"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_unon3_ung_loaner_program">webcam_mic_returned=true^webcam_mic_return_dateVALCHANGES<item endquery="false" field="webcam_mic_returned" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="webcam_mic_return_date" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>52b269ed1bbb845095626288bd4bcb30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:56:07</sys_updated_on>
+        <table>x_unon3_ung_loaner_program</table>
+    </sys_flow_record_trigger>
+    <sys_hub_flow_component action="delete_multiple" query="flow=948225ed1bbb845095626288bd4bcb96^sys_idNOT INac8225ed1bbb845095626288bd4bcbd2,e88225ed1bbb845095626288bd4bcbc2"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="UNG Loaner - Webcam Returned">948225ed1bbb845095626288bd4bcb96</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:55:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ac8225ed1bbb845095626288bd4bcbd2</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-30 18:43:53</sys_updated_on>
+        <ui_id>6fc4ade9-5c6b-429c-8598-ed26cf30d85c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ac8225ed1bbb845095626288bd4bcbd2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ac8225ed1bbb845095626288bd4bcbd2</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:55:11</sys_created_on>
+        <sys_id>a88225ed1bbb845095626288bd4bcbd4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-30 17:41:48</sys_updated_on>
+        <value>cmdb_ci_acc</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ac8225ed1bbb845095626288bd4bcbd2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:55:11</sys_created_on>
+        <sys_id>e48225ed1bbb845095626288bd4bcbd4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-30 18:43:49</sys_updated_on>
+        <value>x_unon3_ung_loaner_loan_status=Available^x_unon3_ung_loaner_loaner_record=^assigned_to=</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ac8225ed1bbb845095626288bd4bcbd2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>ac8225ed1bbb845095626288bd4bcbd2</id>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:55:11</sys_created_on>
+        <sys_id>a08225ed1bbb845095626288bd4bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:55:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{9fb5f4f1-5f16-4d47-a3fd-38a476b45ad8.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>ac8225ed1bbb845095626288bd4bcbd2</id>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:55:11</sys_created_on>
+        <sys_id>ec8225ed1bbb845095626288bd4bcbd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:55:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>ac8225ed1bbb845095626288bd4bcbd2</id>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:55:11</sys_created_on>
+        <sys_id>648225ed1bbb845095626288bd4bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:55:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="UNG Loaner - Webcam Returned">948225ed1bbb845095626288bd4bcb96</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:55:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e88225ed1bbb845095626288bd4bcbc2</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-30 18:43:53</sys_updated_on>
+        <ui_id>9fb5f4f1-5f16-4d47-a3fd-38a476b45ad8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e88225ed1bbb845095626288bd4bcbc2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e88225ed1bbb845095626288bd4bcbc2</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:55:11</sys_created_on>
+        <sys_id>648225ed1bbb845095626288bd4bcbc4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-30 17:41:48</sys_updated_on>
+        <value>cmdb_ci_acc</value>
+        <variable display_value="">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e88225ed1bbb845095626288bd4bcbc2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>e88225ed1bbb845095626288bd4bcbc2</id>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:55:11</sys_created_on>
+        <sys_id>208225ed1bbb845095626288bd4bcbc4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:56:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>sys_id={{Updated_1.current.webcam_mic}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>e88225ed1bbb845095626288bd4bcbc2</id>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:55:11</sys_created_on>
+        <sys_id>e08225ed1bbb845095626288bd4bcbc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:55:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=948225ed1bbb845095626288bd4bcb96^sys_idNOT INac8225ed1bbb845095626288bd4bcbd4"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="UNG Loaner - Webcam Returned">948225ed1bbb845095626288bd4bcb96</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:55:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ac8225ed1bbb845095626288bd4bcbd4</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-30 18:43:53</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ac8225ed1bbb845095626288bd4bcbd4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>ac8225ed1bbb845095626288bd4bcbd4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:55:11</sys_created_on>
+        <sys_id>248225ed1bbb845095626288bd4bcbd5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:56:05</sys_updated_on>
+        <value>webcam_mic_returned=true^webcam_mic_return_dateVALCHANGES</value>
+        <variable display_value="">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>ac8225ed1bbb845095626288bd4bcbd4</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:55:11</sys_created_on>
+        <sys_id>e48225ed1bbb845095626288bd4bcbd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:55:11</sys_updated_on>
+        <value>x_unon3_ung_loaner_program</value>
+        <variable display_value="">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=948225ed1bbb845095626288bd4bcb96^sys_idNOT IN588225ed1bbb845095626288bd4bcb97"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>948225ed1bbb845095626288bd4bcb96</id>
+        <name>UNG Loaner - Webcam Returned</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:55:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>588225ed1bbb845095626288bd4bcb97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:55:10</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=948225ed1bbb845095626288bd4bcb96^sys_idNOT IN188225ed1bbb845095626288bd4bcb9e,648225ed1bbb845095626288bd4bcbab,e08225ed1bbb845095626288bd4bcba5"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation>(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);</calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="UNG Loaner - Webcam Returned">948225ed1bbb845095626288bd4bcb96</model>
+        <model_id>948225ed1bbb845095626288bd4bcb96</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_948225ed1bbb845095626288bd4bcb96</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:55:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>188225ed1bbb845095626288bd4bcb9e</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-30 18:43:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDaa88b97a98f30c5041c4a3b1b1df7c61,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation>(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);</calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="UNG Loaner - Webcam Returned">948225ed1bbb845095626288bd4bcb96</model>
+        <model_id>948225ed1bbb845095626288bd4bcb96</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_948225ed1bbb845095626288bd4bcb96</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:55:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>648225ed1bbb845095626288bd4bcbab</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-30 18:43:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation>(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);</calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="UNG Loaner - Webcam Returned">948225ed1bbb845095626288bd4bcb96</model>
+        <model_id>948225ed1bbb845095626288bd4bcb96</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_948225ed1bbb845095626288bd4bcb96</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:55:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e08225ed1bbb845095626288bd4bcba5</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-30 18:43:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=948225ed1bbb845095626288bd4bcb96^sys_idNOT INac8225ed1bbb845095626288bd4bcbd2,e88225ed1bbb845095626288bd4bcbc2"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="UNG Loaner - Webcam Returned">948225ed1bbb845095626288bd4bcb96</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:55:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ac8225ed1bbb845095626288bd4bcbd2</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-30 18:43:53</sys_updated_on>
+        <ui_id>6fc4ade9-5c6b-429c-8598-ed26cf30d85c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ac8225ed1bbb845095626288bd4bcbd2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ac8225ed1bbb845095626288bd4bcbd2</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:55:11</sys_created_on>
+        <sys_id>a88225ed1bbb845095626288bd4bcbd4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-30 17:41:48</sys_updated_on>
+        <value>cmdb_ci_acc</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ac8225ed1bbb845095626288bd4bcbd2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:55:11</sys_created_on>
+        <sys_id>e48225ed1bbb845095626288bd4bcbd4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-30 18:43:49</sys_updated_on>
+        <value>x_unon3_ung_loaner_loan_status=Available^x_unon3_ung_loaner_loaner_record=^assigned_to=</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ac8225ed1bbb845095626288bd4bcbd2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>ac8225ed1bbb845095626288bd4bcbd2</id>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:55:11</sys_created_on>
+        <sys_id>a08225ed1bbb845095626288bd4bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:55:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{9fb5f4f1-5f16-4d47-a3fd-38a476b45ad8.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>ac8225ed1bbb845095626288bd4bcbd2</id>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:55:11</sys_created_on>
+        <sys_id>ec8225ed1bbb845095626288bd4bcbd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:55:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>ac8225ed1bbb845095626288bd4bcbd2</id>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:55:11</sys_created_on>
+        <sys_id>648225ed1bbb845095626288bd4bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:55:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="UNG Loaner - Webcam Returned">948225ed1bbb845095626288bd4bcb96</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:55:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e88225ed1bbb845095626288bd4bcbc2</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-30 18:43:53</sys_updated_on>
+        <ui_id>9fb5f4f1-5f16-4d47-a3fd-38a476b45ad8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e88225ed1bbb845095626288bd4bcbc2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e88225ed1bbb845095626288bd4bcbc2</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:55:11</sys_created_on>
+        <sys_id>648225ed1bbb845095626288bd4bcbc4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-30 17:41:48</sys_updated_on>
+        <value>cmdb_ci_acc</value>
+        <variable display_value="">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e88225ed1bbb845095626288bd4bcbc2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>e88225ed1bbb845095626288bd4bcbc2</id>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:55:11</sys_created_on>
+        <sys_id>208225ed1bbb845095626288bd4bcbc4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:56:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>sys_id={{Updated_1.current.webcam_mic}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>e88225ed1bbb845095626288bd4bcbc2</id>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:55:11</sys_created_on>
+        <sys_id>e08225ed1bbb845095626288bd4bcbc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:55:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_948225ed1bbb845095626288bd4bcb96^sys_idNOT IN2c8225ed1bbb845095626288bd4bcba3,ac8225ed1bbb845095626288bd4bcba9,ac8225ed1bbb845095626288bd4bcbbc"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_948225ed1bbb845095626288bd4bcb96</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:55:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2c8225ed1bbb845095626288bd4bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="UNG Loaner" source="x_unon3_ung_loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:55:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_948225ed1bbb845095626288bd4bcb96</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:55:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ac8225ed1bbb845095626288bd4bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="UNG Loaner" source="x_unon3_ung_loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:55:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_948225ed1bbb845095626288bd4bcb96</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:55:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ac8225ed1bbb845095626288bd4bcbbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="UNG Loaner" source="x_unon3_ung_loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:55:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=948225ed1bbb845095626288bd4bcb96^sys_idNOT INd6b269ed1bbb845095626288bd4bcb30"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"d6b269ed1bbb845095626288bd4bcb30","name":"plan"}}</plan>
+        <plan_id>948225ed1bbb845095626288bd4bcb96</plan_id>
+        <snapshot>8eb229ed1bbb845095626288bd4bcbd6</snapshot>
+        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>d6b269ed1bbb845095626288bd4bcb30</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-30 17:41:51</sys_updated_on>
+        <trigger display_value="">52b269ed1bbb845095626288bd4bcb30</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>ung_loaner__webcam_returned</internal_name>
+        <label_cache>[{"name":"Updated_1.current.monitor","label":"Trigger➛UNG Loaner Record➛Monitor","reference":"cmdb_ci_peripheral","reference_display":"Computer Peripheral","type":"reference","base_type":"reference","parent_table_name":"x_unon3_ung_loaner_program","column_name":"monitor"},{"name":"Updated_1.current.peripheral","label":"Trigger➛UNG Loaner Record➛Loaned Peripheral","reference":"cmdb_ci_peripheral","reference_display":"Computer Peripheral","type":"reference","base_type":"reference","parent_table_name":"x_unon3_ung_loaner_program","column_name":"peripheral"},{"name":"9fb5f4f1-5f16-4d47-a3fd-38a476b45ad8.Record","label":"1➛Computer Peripheral Record","reference":"cmdb_ci_peripheral","reference_display":"Computer Peripheral","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9fb5f4f1-5f16-4d47-a3fd-38a476b45ad8.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.loaned_ci","label":"Trigger➛UNG Loaner Record➛Loaned CI","reference":"cmdb_ci_computer","reference_display":"Computer","type":"reference","base_type":"reference","parent_table_name":"x_unon3_ung_loaner_program","column_name":"loaned_ci"},{"name":"6fc4ade9-5c6b-429c-8598-ed26cf30d85c.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6fc4ade9-5c6b-429c-8598-ed26cf30d85c.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.webcam_mic","label":"Trigger➛UNG Loaner Record➛Webcam/Mic","reference":"cmdb_ci_peripheral","reference_display":"Computer Peripheral","type":"reference","base_type":"reference","parent_table_name":"x_unon3_ung_loaner_program","column_name":"webcam_mic"}]</label_cache>
+        <master>true</master>
+        <name>UNG Loaner - Webcam Returned</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="UNG Loaner - Webcam Returned">948225ed1bbb845095626288bd4bcb96</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>8eb229ed1bbb845095626288bd4bcbd6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-30 18:43:52</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=8eb229ed1bbb845095626288bd4bcbd6"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=8eb229ed1bbb845095626288bd4bcbd6^sys_idNOT IN42b269ed1bbb845095626288bd4bcb16,cab269ed1bbb845095626288bd4bcb1a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="UNG Loaner - Webcam Returned">8eb229ed1bbb845095626288bd4bcbd6</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>42b269ed1bbb845095626288bd4bcb16</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-30 18:43:52</sys_updated_on>
+        <ui_id>9fb5f4f1-5f16-4d47-a3fd-38a476b45ad8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=42b269ed1bbb845095626288bd4bcb16"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>42b269ed1bbb845095626288bd4bcb16</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:07</sys_created_on>
+        <sys_id>cab269ed1bbb845095626288bd4bcb17</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-30 17:41:50</sys_updated_on>
+        <value>cmdb_ci_acc</value>
+        <variable display_value="">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=42b269ed1bbb845095626288bd4bcb16"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>42b269ed1bbb845095626288bd4bcb16</id>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:07</sys_created_on>
+        <sys_id>86b269ed1bbb845095626288bd4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:56:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>sys_id={{Updated_1.current.webcam_mic}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>42b269ed1bbb845095626288bd4bcb16</id>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:07</sys_created_on>
+        <sys_id>4ab269ed1bbb845095626288bd4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:56:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="UNG Loaner - Webcam Returned">8eb229ed1bbb845095626288bd4bcbd6</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>cab269ed1bbb845095626288bd4bcb1a</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-30 18:43:52</sys_updated_on>
+        <ui_id>6fc4ade9-5c6b-429c-8598-ed26cf30d85c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cab269ed1bbb845095626288bd4bcb1a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cab269ed1bbb845095626288bd4bcb1a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:07</sys_created_on>
+        <sys_id>06b269ed1bbb845095626288bd4bcb1c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-30 18:43:51</sys_updated_on>
+        <value>x_unon3_ung_loaner_loan_status=Available^x_unon3_ung_loaner_loaner_record=^assigned_to=</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cab269ed1bbb845095626288bd4bcb1a</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:07</sys_created_on>
+        <sys_id>c6b269ed1bbb845095626288bd4bcb1c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-30 17:41:50</sys_updated_on>
+        <value>cmdb_ci_acc</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=cab269ed1bbb845095626288bd4bcb1a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>cab269ed1bbb845095626288bd4bcb1a</id>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:07</sys_created_on>
+        <sys_id>ceb269ed1bbb845095626288bd4bcb1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:56:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{9fb5f4f1-5f16-4d47-a3fd-38a476b45ad8.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>cab269ed1bbb845095626288bd4bcb1a</id>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:07</sys_created_on>
+        <sys_id>0eb269ed1bbb845095626288bd4bcb1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:56:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>cab269ed1bbb845095626288bd4bcb1a</id>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:07</sys_created_on>
+        <sys_id>82b269ed1bbb845095626288bd4bcb1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:56:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=8eb229ed1bbb845095626288bd4bcbd6^sys_idNOT INcab269ed1bbb845095626288bd4bcb1c"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="UNG Loaner - Webcam Returned">8eb229ed1bbb845095626288bd4bcbd6</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>cab269ed1bbb845095626288bd4bcb1c</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-30 18:43:53</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cab269ed1bbb845095626288bd4bcb1c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>cab269ed1bbb845095626288bd4bcb1c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:07</sys_created_on>
+        <sys_id>02b269ed1bbb845095626288bd4bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:56:07</sys_updated_on>
+        <value>webcam_mic_returned=true^webcam_mic_return_dateVALCHANGES</value>
+        <variable display_value="">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>cab269ed1bbb845095626288bd4bcb1c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:07</sys_created_on>
+        <sys_id>c2b269ed1bbb845095626288bd4bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:56:07</sys_updated_on>
+        <value>x_unon3_ung_loaner_program</value>
+        <variable display_value="">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=8eb229ed1bbb845095626288bd4bcbd6^sys_idNOT IN86b229ed1bbb845095626288bd4bcbd7"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>8eb229ed1bbb845095626288bd4bcbd6</id>
+        <name>UNG Loaner - Webcam Returned</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>86b229ed1bbb845095626288bd4bcbd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:56:06</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=8eb229ed1bbb845095626288bd4bcbd6^sys_idNOT IN0ab229ed1bbb845095626288bd4bcbda,42b269ed1bbb845095626288bd4bcb06,82b229ed1bbb845095626288bd4bcbfc"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation>(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);</calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="UNG Loaner - Webcam Returned">8eb229ed1bbb845095626288bd4bcbd6</model>
+        <model_id>8eb229ed1bbb845095626288bd4bcbd6</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_8eb229ed1bbb845095626288bd4bcbd6</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0ab229ed1bbb845095626288bd4bcbda</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-30 18:43:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation>(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);</calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="UNG Loaner - Webcam Returned">8eb229ed1bbb845095626288bd4bcbd6</model>
+        <model_id>8eb229ed1bbb845095626288bd4bcbd6</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_8eb229ed1bbb845095626288bd4bcbd6</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>42b269ed1bbb845095626288bd4bcb06</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-30 18:43:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDaa88b97a98f30c5041c4a3b1b1df7c61,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation>(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);</calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="UNG Loaner - Webcam Returned">8eb229ed1bbb845095626288bd4bcbd6</model>
+        <model_id>8eb229ed1bbb845095626288bd4bcbd6</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_8eb229ed1bbb845095626288bd4bcbd6</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>82b229ed1bbb845095626288bd4bcbfc</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-30 18:43:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=8eb229ed1bbb845095626288bd4bcbd6^sys_idNOT IN42b269ed1bbb845095626288bd4bcb16,cab269ed1bbb845095626288bd4bcb1a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="UNG Loaner - Webcam Returned">8eb229ed1bbb845095626288bd4bcbd6</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>42b269ed1bbb845095626288bd4bcb16</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-30 18:43:52</sys_updated_on>
+        <ui_id>9fb5f4f1-5f16-4d47-a3fd-38a476b45ad8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=42b269ed1bbb845095626288bd4bcb16"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>42b269ed1bbb845095626288bd4bcb16</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:07</sys_created_on>
+        <sys_id>cab269ed1bbb845095626288bd4bcb17</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-30 17:41:50</sys_updated_on>
+        <value>cmdb_ci_acc</value>
+        <variable display_value="">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=42b269ed1bbb845095626288bd4bcb16"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>42b269ed1bbb845095626288bd4bcb16</id>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:07</sys_created_on>
+        <sys_id>86b269ed1bbb845095626288bd4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:56:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>sys_id={{Updated_1.current.webcam_mic}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>42b269ed1bbb845095626288bd4bcb16</id>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:07</sys_created_on>
+        <sys_id>4ab269ed1bbb845095626288bd4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:56:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="UNG Loaner - Webcam Returned">8eb229ed1bbb845095626288bd4bcbd6</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>cab269ed1bbb845095626288bd4bcb1a</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-30 18:43:52</sys_updated_on>
+        <ui_id>6fc4ade9-5c6b-429c-8598-ed26cf30d85c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cab269ed1bbb845095626288bd4bcb1a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cab269ed1bbb845095626288bd4bcb1a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:07</sys_created_on>
+        <sys_id>06b269ed1bbb845095626288bd4bcb1c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-30 18:43:51</sys_updated_on>
+        <value>x_unon3_ung_loaner_loan_status=Available^x_unon3_ung_loaner_loaner_record=^assigned_to=</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cab269ed1bbb845095626288bd4bcb1a</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:07</sys_created_on>
+        <sys_id>c6b269ed1bbb845095626288bd4bcb1c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-30 17:41:50</sys_updated_on>
+        <value>cmdb_ci_acc</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=cab269ed1bbb845095626288bd4bcb1a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>cab269ed1bbb845095626288bd4bcb1a</id>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:07</sys_created_on>
+        <sys_id>ceb269ed1bbb845095626288bd4bcb1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:56:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{9fb5f4f1-5f16-4d47-a3fd-38a476b45ad8.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>cab269ed1bbb845095626288bd4bcb1a</id>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:07</sys_created_on>
+        <sys_id>0eb269ed1bbb845095626288bd4bcb1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:56:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>cab269ed1bbb845095626288bd4bcb1a</id>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:07</sys_created_on>
+        <sys_id>82b269ed1bbb845095626288bd4bcb1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:56:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_8eb229ed1bbb845095626288bd4bcbd6^sys_idNOT IN02b229ed1bbb845095626288bd4bcbe0,02b269ed1bbb845095626288bd4bcb02,cab269ed1bbb845095626288bd4bcb0b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8eb229ed1bbb845095626288bd4bcbd6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>02b229ed1bbb845095626288bd4bcbe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="UNG Loaner" source="x_unon3_ung_loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:56:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8eb229ed1bbb845095626288bd4bcbd6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>02b269ed1bbb845095626288bd4bcb02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="UNG Loaner" source="x_unon3_ung_loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:56:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8eb229ed1bbb845095626288bd4bcbd6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 19:56:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>cab269ed1bbb845095626288bd4bcb0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="UNG Loaner" source="x_unon3_ung_loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:56:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

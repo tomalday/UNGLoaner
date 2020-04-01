@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="x_unon3_ung_loaner_loan_status" table="cmdb_ci_acc" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_unon3_ung_loaner_loan_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Available</label>
+            <language>en</language>
+            <name>cmdb_ci_acc</name>
+            <sequence>0</sequence>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-30 17:38:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>18a965b61bb30c5095626288bd4bcb36</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-30 17:38:42</sys_updated_on>
+            <value>Available</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_unon3_ung_loaner_loan_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Checked Out</label>
+            <language>en</language>
+            <name>cmdb_ci_acc</name>
+            <sequence>1</sequence>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-30 17:38:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>14a965b61bb30c5095626288bd4bcb3a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-30 17:38:42</sys_updated_on>
+            <value>Checked Out</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>x_unon3_ung_loaner_loan_status</element>
+            <name>cmdb_ci_acc</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-30 17:38:42</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>d0a965b61bb30c5095626288bd4bcb37</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_unon3_ung_loaner_loan_status</sys_name>
+            <sys_package display_value="UNG Loaner" source="x_unon3_ung_loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+            <sys_update_name>sys_choice_cmdb_ci_acc_x_unon3_ung_loaner_loan_status</sys_update_name>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-30 17:38:42</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

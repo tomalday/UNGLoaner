@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="UNG Loaner" max_length="40" name="x_unon3_ung_loaner_program" sizeclass="12" type="collection">
+        <element label="Building" mandatory="true" max_length="32" name="building_room" reference="cmn_location" reference_qual="u_location_type=Building^EQ" reference_qual_condition="u_location_type=Building^EQ" type="reference"/>
+        <element label="Campus" mandatory="true" max_length="32" name="campus" reference="u_notify_campus" type="reference"/>
+        <element label="Computer Device Returned" max_length="40" name="ci_checked_in" type="boolean"/>
+        <element audit="true" label="Computer Device Return Date" max_length="40" name="ci_returned" read_only="true" type="glide_date_time"/>
+        <element label="Department Head" max_length="32" name="department_head" reference="sys_user" type="reference"/>
+        <element audit="true" label="Due Date Reminder Sent" max_length="40" name="due_date_reminder_sent" read_only="true" type="boolean"/>
+        <element audit="true" label="Employee Name" mandatory="true" max_length="32" name="employee_name" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Keyboard" max_length="40" name="keyboard" type="boolean"/>
+        <element audit="true" label="Computing Device" max_length="32" name="loaned_ci" reference="cmdb_ci_computer" reference_qual="u_assignment_type=Loaner^u_loaner_status=Available^EQ" reference_qual_condition="u_assignment_type=Loaner^u_loaner_status=Available^EQ" type="reference"/>
+        <element choice="1" label="Loaner Type" max_length="40" name="loaner_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="International Travel" sequence="0" value="International Travel"/>
+                <element inactive_on_update="false" label="Fac/Staff Use" sequence="1" value="Work From Home"/>
+                <element inactive_on_update="false" label="Student Use" sequence="2" value="Student Use"/>
+            </choice>
+        </element>
+        <element label="Monitor" max_length="32" name="monitor" reference="cmdb_ci_peripheral" reference_qual="u_assignment_type=Loaner^u_loan_status=Available^EQ" reference_qual_condition="u_assignment_type=Loaner^u_loan_status=Available^EQ" type="reference"/>
+        <element label="Monitor Returned" max_length="40" name="monitor_returned" type="boolean"/>
+        <element label="Monitor Return Date" max_length="40" name="monitor_return_date" read_only="true" type="glide_date_time"/>
+        <element label="Mouse" max_length="40" name="mouse" type="boolean"/>
+        <element label="Other Peripheral1" max_length="32" name="other_peripheral1" reference="cmdb_ci_peripheral" reference_qual="u_assignment_type=Loaner^u_loan_status=Available^EQ" reference_qual_condition="u_assignment_type=Loaner^u_loan_status=Available^EQ" type="reference"/>
+        <element label="Other Peripheral1 Returned" max_length="40" name="other_peripheral1_returned" type="boolean"/>
+        <element label="Other Peripheral1 Return Date" max_length="40" name="other_peripheral1_return_date" read_only="true" type="glide_date_time"/>
+        <element label="Other Peripheral2" max_length="32" name="other_peripheral2" reference="cmdb_ci_peripheral" reference_qual="u_assignment_type=Loaner^u_loan_status=Available^EQ" reference_qual_condition="u_assignment_type=Loaner^u_loan_status=Available^EQ" type="reference"/>
+        <element label="Other Peripheral2 Returned" max_length="40" name="other_peripheral2_returned" type="boolean"/>
+        <element label="Other Peripheral2 Return Date" max_length="40" name="other_peripheral2_return_date" read_only="true" type="glide_date_time"/>
+        <element label="Out Date" max_length="40" name="out_date" type="glide_date"/>
+        <element attributes="encode_utf8=false" audit="true" label="Loaned Peripheral" max_length="32" name="peripheral" reference="cmdb_ci_peripheral" reference_qual="u_assignment_type=Loaner^u_loan_status=Available^EQ" reference_qual_condition="u_assignment_type=Loaner^u_loan_status=Available^EQ" type="reference"/>
+        <element label="Peripheral Checked In" max_length="40" name="peripheral_checked_in" type="boolean"/>
+        <element audit="true" label="Peripheral Returned " max_length="40" name="peripheral_returned" read_only="true" type="glide_date_time"/>
+        <element audit="true" label="Personal Contact" mandatory="true" max_length="40" name="personal_contact" type="string"/>
+        <element label="Power Adapter" max_length="32" name="power_adapter" reference="cmdb_ci_peripheral" reference_qual="u_assignment_type=Loaner^u_loan_status=Available^EQ" reference_qual_condition="u_assignment_type=Loaner^u_loan_status=Available^EQ" type="reference"/>
+        <element label="Power Adapter Returned" max_length="40" name="power_adapter_returned" type="boolean"/>
+        <element label="Power Adapter Return Date" max_length="40" name="power_adapter_return_date" read_only="true" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Preferred Pickup Location" max_length="40" name="preferred_pickup_location" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Dahlonega Helpdesk - Library/Tech Center" sequence="0" value="Dahlonega Helpdesk - Library/Tech Center"/>
+                <element inactive_on_update="false" label="Gainesville Helpdesk - Watkins ACTT Center" sequence="1" value="Gainesville Helpdesk - Watkins ACTT Center"/>
+                <element inactive_on_update="false" label="Oconee Helpdesk - Admin Building 207" sequence="2" value="Oconee Helpdesk - Admin Building 207"/>
+            </choice>
+        </element>
+        <element label="Return Date" max_length="40" name="return_date" type="glide_date"/>
+        <element label="Room" max_length="40" name="room" type="string"/>
+        <element choice="1" default="unassigned" label="Status" max_length="40" name="status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Unassigned" sequence="1" value="unassigned"/>
+                <element inactive_on_update="false" label="Active Loan" sequence="2" value="activeLoan"/>
+                <element inactive_on_update="false" label="Overdue" sequence="3" value="overdue"/>
+                <element inactive_on_update="false" label="Returned" sequence="4" value="returned"/>
+            </choice>
+        </element>
+        <element label="Supervisor" mandatory="true" max_length="32" name="supervisor" reference="sys_user" type="reference"/>
+        <element label="Webcam" max_length="32" name="webcam" reference="cmdb_ci_peripheral" type="reference"/>
+        <element label="Webcam/Mic" max_length="32" name="webcam_mic" reference="cmdb_ci_acc" reference_qual="u_assignment_type=Loaner^EQ" reference_qual_condition="u_assignment_type=Loaner^EQ" type="reference"/>
+        <element label="Webcam/Mic returned" max_length="40" name="webcam_mic_returned" type="boolean"/>
+        <element label="Webcam/Mic Return Date" max_length="40" name="webcam_mic_return_date" read_only="true" type="glide_date_time"/>
+    </element>
+</database>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_unon3_ung_loaner_program</collection>
+        <email_layout/>
+        <message/>
+        <message_html/>
+        <message_list/>
+        <message_text/>
+        <name>UNG Loaner.external</name>
+        <sms_alternate/>
+        <subject/>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-11 20:30:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c3ba98b8db63c050d2f3d2e3ca96190f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UNG Loaner.external</sys_name>
+        <sys_package display_value="UNG Loaner" source="x_unon3_ung_loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+        <sys_update_name>sysevent_email_template_c3ba98b8db63c050d2f3d2e3ca96190f</sys_update_name>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-11 20:30:57</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

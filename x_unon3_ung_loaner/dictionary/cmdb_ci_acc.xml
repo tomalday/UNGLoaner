@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmdb_ci" label="Accessory" max_length="40" name="cmdb_ci_acc" sizeclass="43" type="collection">
+        <element attributes="encode_utf8=false" label="Loaner Record" max_length="32" name="x_unon3_ung_loaner_loaner_record" reference="x_unon3_ung_loaner_program" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Loan Status" max_length="40" name="x_unon3_ung_loaner_loan_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Available" sequence="0" value="Available"/>
+                <element inactive_on_update="false" label="Checked Out" sequence="1" value="Checked Out"/>
+            </choice>
+        </element>
+    </element>
+</database>

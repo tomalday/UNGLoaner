@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA UNG Loaner Dashboard - New Tab">d6f6d4e11b77845095626288bd4bcb8e</grid_canvas>
+        <height>8</height>
+        <portal_widget display_value="Created 03/26/2020 12:55:08:PM">0349346d1bf7845095626288bd4bcbe2</portal_widget>
+        <posx>6</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2020-03-26 16:55:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0749b46d1bf7845095626288bd4bcbc9</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="UNG Loaner" source="x_unon3_ung_loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_0749b46d1bf7845095626288bd4bcbc9</sys_update_name>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2020-03-30 19:27:00</sys_updated_on>
+        <width>2</width>
+    </sys_grid_canvas_pane>
+</record_update>

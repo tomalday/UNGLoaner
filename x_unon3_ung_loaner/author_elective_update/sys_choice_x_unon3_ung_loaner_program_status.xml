@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="status" table="x_unon3_ung_loaner_program" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unassigned</label>
+            <language>en</language>
+            <name>x_unon3_ung_loaner_program</name>
+            <sequence>1</sequence>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-19 14:45:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0858905fdbaf0c50d2f3d2e3ca9619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-19 14:45:06</sys_updated_on>
+            <value>unassigned</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Active Loan</label>
+            <language>en</language>
+            <name>x_unon3_ung_loaner_program</name>
+            <sequence>2</sequence>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-19 14:45:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4488505fdbaf0c50d2f3d2e3ca961977</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-19 14:45:30</sys_updated_on>
+            <value>activeLoan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Overdue</label>
+            <language>en</language>
+            <name>x_unon3_ung_loaner_program</name>
+            <sequence>3</sequence>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-19 14:45:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0788505fdbaf0c50d2f3d2e3ca9619cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-19 14:45:43</sys_updated_on>
+            <value>overdue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Returned</label>
+            <language>en</language>
+            <name>x_unon3_ung_loaner_program</name>
+            <sequence>4</sequence>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-19 14:45:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b598905fdbaf0c50d2f3d2e3ca9619bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-19 14:45:54</sys_updated_on>
+            <value>returned</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <name>x_unon3_ung_loaner_program</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-19 14:45:06</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>0668505fdbaf0c50d2f3d2e3ca9619c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>status</sys_name>
+            <sys_package display_value="UNG Loaner" source="x_unon3_ung_loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+            <sys_update_name>sys_choice_x_unon3_ung_loaner_program_status</sys_update_name>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-19 14:45:06</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

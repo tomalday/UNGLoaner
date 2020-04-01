@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="loaner_type" table="x_unon3_ung_loaner_program" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loaner_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>International Travel</label>
+            <language>en</language>
+            <name>x_unon3_ung_loaner_program</name>
+            <sequence>0</sequence>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-11 19:54:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>21829870db63c050d2f3d2e3ca96195e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-11 19:54:35</sys_updated_on>
+            <value>International Travel</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loaner_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fac/Staff Use</label>
+            <language>en</language>
+            <name>x_unon3_ung_loaner_program</name>
+            <sequence>1</sequence>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-11 19:54:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>2d829870db63c050d2f3d2e3ca961960</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-30 19:50:32</sys_updated_on>
+            <value>Work From Home</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loaner_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Student Use</label>
+            <language>en</language>
+            <name>x_unon3_ung_loaner_program</name>
+            <sequence>2</sequence>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-30 19:50:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>34e70a3e1b370c5095626288bd4bcb5a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-30 19:50:54</sys_updated_on>
+            <value>Student Use</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>loaner_type</element>
+            <name>x_unon3_ung_loaner_program</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2020-03-11 19:54:35</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>a9829870db63c050d2f3d2e3ca96195e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>loaner_type</sys_name>
+            <sys_package display_value="UNG Loaner" source="x_unon3_ung_loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UNG Loaner">4b6b04f0db23c050d2f3d2e3ca961979</sys_scope>
+            <sys_update_name>sys_choice_x_unon3_ung_loaner_program_loaner_type</sys_update_name>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2020-03-11 19:54:35</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
